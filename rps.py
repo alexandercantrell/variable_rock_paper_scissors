@@ -5,7 +5,7 @@ Author: Alexander Cantrell
 ------------------------------------------------
 
 Basic RPS (rock, paper, scissors) is played by default. To play RPSLS (rock, paper,
-scissors, lizzard, spock) comment the current name_mappings, and uncomment the
+scissors, lizard, spock) comment the current name_mappings, and uncomment the
 game-specific one. You can also add your own options as long as the follow the input
 rules below.
 
@@ -38,8 +38,8 @@ fully generate our dominance map for any set of options.
 import random
 
 name_mappings = {'r':'Rock','p':'Paper','s':'Scissors'}
-#Uncomment for Rock Paper Scissors Lizzard Spock
-#name_mappings = {'r':'Rock','p':'Paper','sc':'Scissors','sp':'Spock','l':'Lizzard'}
+#Uncomment for Rock Paper Scissors Lizard Spock
+#name_mappings = {'r':'Rock','p':'Paper','sc':'Scissors','sp':'Spock','l':'Lizard'}
 
 #Get list of allowed options
 options = list(name_mappings.keys()) 
